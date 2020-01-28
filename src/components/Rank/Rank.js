@@ -3,9 +3,9 @@ import React from 'react'
 const Rank = ({name, entries}) => {
     return(
     <div>
-        {`${name} , your current rank is...`}
+        {`${name} , you've tried  this...`}
       <div className='white f1 '>
-        {entries}
+        {`${entries} times!`}
       </div>
     </div>
     );
